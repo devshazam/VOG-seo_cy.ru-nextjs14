@@ -1,0 +1,105 @@
+
+/* DONE  - No URL */
+
+.b-sub-menu {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 34px 34px 45px;
+  background: #232323;
+  z-index: 122;
+}
+.b-sub-menu a:link,
+.b-sub-menu a:visited,
+.b-sub-menu a:active {
+  padding: 0 !important;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+.b-sub-menu a:hover {
+  padding: 0 !important;
+  color: #ffd156 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 30px !important;
+}
+.b-sub-menu .sub-menu__wrapper {
+  display: flex;
+}
+.b-sub-menu .sub-menu__right {
+  width: 280px;
+  box-sizing: border-box;
+  padding: 5px 0;
+}
+.b-sub-menu .sub-menu__left {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 -10px;
+}
+.b-sub-menu .sub-menu__col {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.b-sub-menu .sub-menu__banner-pic img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.b-sub-menu .sub-menu__title,
+.b-sub-menu .sub-menu__title a:link,
+.b-sub-menu .sub-menu__title a:visited,
+.b-sub-menu .sub-menu__title a:active {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.b-sub-menu .sub-menu__title a:hover {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+}
+.b-sub-menu .sub-menu__top {
+  margin-bottom: 24px;
+}
+.b-sub-menu .sub-menu__banner {
+  background: #fff;
+  position: relative;
+}
+.b-sub-menu .sub-menu__banner-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.b-sub-menu .sub-menu__banner:hover .sub-menu__banner-title {
+  text-decoration: underline;
+}
+.b-sub-menu .sub-menu__banner-content {
+  box-sizing: border-box;
+  padding: 24px 24px;
+}
+.b-sub-menu .sub-menu__banner-title {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+}
+.b-sub-menu .sub-menu__banner-info {
+  font-size: 12px;
+  line-height: 1;
+  color: #9f9f9f;
+  display: flex;
+}
+.b-menu .item-1 .item-1-sub {
+  display: none;
+}
+.b-menu .item-1:hover .item-1-sub {
+  display: block;
+}
