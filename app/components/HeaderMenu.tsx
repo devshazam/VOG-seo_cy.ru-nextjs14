@@ -186,9 +186,9 @@ const HeaderMenu = () => {
                                                                 <div className="sub-menu__title"><a href="https://kopi34.ru/" target="_blank">&quot;KopiPrint&quot;</a>
                                                                 </div>
                                                                 <div className="sub-menu__item"><a
-                                                                        href="https://kopi34.ru/vizitki"  target="_blank">Визитки</a></div>
+                                                                        href="https://kopi34.ru/produce/vizitki"  target="_blank">Визитки</a></div>
                                                                 <div className="sub-menu__item"><a
-                                                                        href="https://kopi34.ru/banner"  target="_blank">Баннеры</a></div>
+                                                                        href="https://kopi34.ru/produce/banner"  target="_blank">Баннеры</a></div>
                                                             </div>
                                                         
                                                         </div>
@@ -211,12 +211,12 @@ const HeaderMenu = () => {
                                 <div className="b-sevice">
                                     <ul className="level-1" >
                                         
-                                        <li className="item-1"><span><a href="/files/Прайслист-разработка_сайтов-12.04.2024.xlsx" download target="_blank">
+                                        <li className="item-1"><span><a href="https://docs.google.com/spreadsheets/d/1HBzpynruRac8IXZ1kLVZ-Eqpk7jON3CW/edit?usp=sharing&ouid=117443855612121402557&rtpof=true&sd=true" download target="_blank">
 
-                                                    Прайс 2023</a></span> </li>
+                                                    Прайс-Лист</a></span> </li>
                                                     
                                         <li className="item-1"><span><a href="https://github.com/devshazam" target="_blank" rel='noreferrer'>
-                                                    Портфолио ⬇️</a></span> </li>
+                                                    Портфолио</a></span> </li>
                                         <li className="item-1"><span><a href="/#otzyvy">
                                                     Отзывы</a></span> </li>
                                         <li className="item-1"><span><a href="/contacts/">
