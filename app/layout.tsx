@@ -23,6 +23,8 @@ import '../styles/assets/compile/style23.css';
 import '../styles/assets/compile/style24.css';
 import '../styles/assets/style.css';
 
+import Contacts from "./components/Contacts";
+import YandexMetric from "./components/YandexMetric";
 import type { Viewport } from 'next'
  
 export const viewport: Viewport = {
@@ -68,6 +70,8 @@ export default function RootLayout({
         <MobileMenu />
         </div>
         <BackBanner />
+        <Contacts />
+        <YandexMetric />
       </body>
       <Script src="/javascript.js" />
     </html>

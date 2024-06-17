@@ -22,7 +22,7 @@ const HeaderMenu = () => {
                                     <div className="head-contacts__phone" ><a   style={{fontSize: '21px'}} href="tel:+79956221475">8-995-622-14-75</a></div>
                                     
                                         <div className="head-contacts__email"><a className="disabled"
-                                                href="javascript:void(0)">г. Волгоград | 9:00-21:00</a></div>
+                                                >г. Волгоград | 9:00-21:00</a></div>
                                     
                                 </div>
                             </div>

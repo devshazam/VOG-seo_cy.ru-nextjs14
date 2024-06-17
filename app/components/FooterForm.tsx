@@ -14,10 +14,10 @@ const FooterForm = () => {
                                 <div className="form-range__price-input">
                                     <div className="field"> <span>от</span> 
                                     <input type="number" name="from" className="input-min"
-                                            value="5000"/> <span>руб.</span> </div>
+                                            defaultValue="5000" /> <span>руб.</span> </div>
                                     <div className="field"> <span>до</span> 
                                     <input type="number" name="to" className="input-max"
-                                            value="100000" /> <span>руб.</span> </div>
+                                            defaultValue="100000"  /> <span>руб.</span> </div>
                                 </div>
                                 
                             </div>
