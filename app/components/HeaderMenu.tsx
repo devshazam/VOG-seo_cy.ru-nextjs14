@@ -211,9 +211,9 @@ const HeaderMenu = () => {
                                 <div className="b-sevice">
                                     <ul className="level-1" >
                                         
-                                        <li className="item-1"><span><a href="https://docs.google.com/spreadsheets/d/1HBzpynruRac8IXZ1kLVZ-Eqpk7jON3CW/edit?usp=sharing&ouid=117443855612121402557&rtpof=true&sd=true" download target="_blank">
+                                        <li className="item-1"><span><a href="https://kopi34.ru/">
 
-                                                    Прайс-Лист</a></span> </li>
+                                                    Полиграфия</a></span> </li>
                                                     
                                         <li className="item-1"><span><a href="https://github.com/devshazam" target="_blank" rel='noreferrer'>
                                                     Портфолио</a></span> </li>
