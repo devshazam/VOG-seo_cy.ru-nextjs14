@@ -21,30 +21,30 @@ const MobileMenu = () => {
 
 
                                 <ul>
-                                    <li><a href="/razrabotka-saitov/"><span>
+                                    <li><a href="/offer/razrabotka-saitov/"><span>
                                         <img src="/files/110/ficon3.png" alt="" /> 
                                                     </span>Разработка сайтов</a></li>
-                                    <li><a href="/razrabotka-saitov/landing-page/"><span>
+                                    <li><a href="/offer/landing-page/"><span>
                                             </span>Лендинги</a></li>
-                                    <li><a href="/razrabotka-saitov/site-vizitka/"><span> 
+                                    <li><a href="/offer/site-vizitka/"><span> 
                                             </span>Визитки</a></li>
-                                    <li><a href="/razrabotka-saitov/site-katalog/"><span> 
+                                    <li><a href="/offer/site-katalog/"><span> 
                                         </span>Сайты-Каталоги</a>
                                     </li>
-                                    <li><a href="/razrabotka-saitov/site-magazin/"><span> 
+                                    <li><a href="/offer/site-magazin/"><span> 
                                         </span>Сайты-Магазины</a>
                                     </li>
-                                    <li><a href="/poiskovoe-prodvizenie/"><span>
+                                    <li><a href="/offer/poiskovoe-prodvizenie/"><span>
                                         <img src="/files/110/ficon3.png" alt="" /> 
                                                     </span>SEO продвижение</a></li>
-                                    <li><a href="/poiskovoe-prodvizenie/seo-prodvizenie-yandex/"><span>
+                                    <li><a href="/offer/seo-prodvizenie-yandex/"><span>
                                             </span>SEO для Яндекс</a></li>
-                                    <li><a href="/poiskovoe-prodvizenie/seo-prodvizenie-google/"><span> 
+                                    <li><a href="/offer/seo-prodvizenie-google/"><span> 
                                             </span>SEO для Google</a></li>
-                                    <li><a href="/digital-reklama/"><span>
+                                    <li><a href="/offer/digital-reklama/"><span>
                                         <img src="/files/110/ficon3.png" alt="" /> 
                                                     </span>Digital Реклама</a></li>
-                                    <li><a href="/digital-reklama/yandex-direct/"><span>
+                                    <li><a href="/offer/yandex-direct/"><span>
                                             </span>Яндекс Директ</a></li>
 
 

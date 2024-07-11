@@ -60,7 +60,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="l-site_wrap js-body">
             <div className="l-site js-site">
-                <div className="b-scrolltop js-scrolltop"></div>
+                {/* <div className="b-scrolltop js-scrolltop"></div> */}
                 <HeaderMenu />
                   {children}
                 <FooterForm />
