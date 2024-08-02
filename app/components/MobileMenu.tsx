@@ -34,6 +34,9 @@ const MobileMenu = () => {
                                     <li><a href="/offer/site-magazin/"><span> 
                                         </span>Сайты-Магазины</a>
                                     </li>
+                                    <li><a href="/offer/telebot/"><span> 
+                                        </span>Telegram Bot</a>
+                                    </li>
                                     <li><a href="/offer/poiskovoe-prodvizenie/"><span>
                                         <img src="/files/110/ficon3.png" alt="" /> 
                                                     </span>SEO продвижение</a></li>

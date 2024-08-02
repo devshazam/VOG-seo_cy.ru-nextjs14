@@ -45,6 +45,9 @@ const FooterMenu = () => {
                                                         <div className="footer-menu__item"><a
                                                                 href="/offer/site-magazin/">Сайт - Магазин</a>
                                                         </div>
+                                                        <div className="footer-menu__item"><a
+                                                                href="/offer/telebot/">Telegram Bot</a>
+                                                        </div>
                                                 </div>
 
 

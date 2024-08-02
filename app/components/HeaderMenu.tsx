@@ -63,6 +63,8 @@ const HeaderMenu = () => {
                                                                 <div className="sub-menu__item"><a
                                                                         href="/offer/site-magazin/">Интернет - Магазин
                                                                     </a></div>
+                                                                <div className="sub-menu__item"><a
+                                                                href="/offer/telebot/">Telegram Bot</a></div>
                                                 
                                                                 
                                                             </div>
