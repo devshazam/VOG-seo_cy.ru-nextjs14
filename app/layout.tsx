@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
 
-
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 import HeaderMenu from "./components/HeaderMenu";
 import FooterForm from "./components/FooterForm";
 import FooterSert from "./components/FooterSert";
@@ -58,19 +58,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="l-site_wrap js-body">
-            <div className="l-site js-site">
-                {/* <div className="b-scrolltop js-scrolltop"></div> */}
-                <HeaderMenu />
-                  {children}
-                <FooterForm />
-                <FooterSert />
-                <FooterMenu />
-            </div>
-        <MobileMenu />
-        </div>
-        <BackBanner />
-        <Contacts />
+        <AntdRegistry>
+          <div className="l-site_wrap js-body">
+              <div className="l-site js-site">
+                  {/* <div className="b-scrolltop js-scrolltop"></div> */}
+                  <HeaderMenu />
+                    {children}
+                  <FooterForm />
+                  <FooterSert />
+                  <FooterMenu />
+              </div>
+          <MobileMenu />
+          </div>
+          <BackBanner />
+          <Contacts />
+        </AntdRegistry>
         <YandexMetric />
       </body>
       <Script src="/javascript.js" />

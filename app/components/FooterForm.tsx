@@ -36,7 +36,7 @@ const FooterForm = () => {
                                     <div className="form__inputwrap"> 
                                        
                                         <input type="tel" name="phone"
-                                              placeholder="Телефон" /> </div>
+                                              placeholder="Телефон" required/> </div>
                                     <p className="form__info"></p>
                                 </div>
                                 <div className="form__col-1-3 form__label-none form__col-nopad"> <label className="form__label">E-mail <ins

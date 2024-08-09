@@ -15,7 +15,7 @@ const HeaderMenu = () => {
                             </div>
                             <div className="pilot__2 hide-on-tablet hide-on-mobile">
                                 <p className="pilot__icons hide-on-tablet hide-on-mobile"><a
-                                          href="tel:+79956221475"><img src="/files/110/icon-phone2.png" />Служба поддержки</a></p>
+                                          href="tel:+79956221475"><img src="/icons8-whatsapp-100.png" />Служба поддержки</a></p>
                             </div>
                             <div className="pilot__3 hide-on-tablet hide-on-mobile">
                                 <div className="b-head-contacts">
@@ -64,6 +64,9 @@ const HeaderMenu = () => {
                                                                         href="/offer/site-magazin/">Интернет - Магазин
                                                                     </a></div>
                                                                 <div className="sub-menu__item"><a
+                                                                href="/offer/dorabotka/">Доработка сайтов</a></div>
+                                                                
+                                                                <div className="sub-menu__item"><a
                                                                 href="/offer/telebot/">Telegram Bot</a></div>
                                                 
                                                                 
@@ -100,6 +103,11 @@ const HeaderMenu = () => {
                                                                 <div className="sub-menu__item"><a
                                                                     href="/offer/seo-prodvizenie-google/">SEO в Google
                                                                 </a></div>
+                                                                <div className="sub-menu__item"><a
+                                                                        href="/offer/digital-reklama/">Digital Реклама</a></div>
+                                                                <div className="sub-menu__item"><a
+                                                                        href="/offer/yandex-direct/">Яндекс Директ
+                                                                    </a></div>
                                                                 
                                                             </div>
                                                         
@@ -116,7 +124,7 @@ const HeaderMenu = () => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className="item-1"> <a href="#" className="disabled" rel="nofollow"> 
+                                        {/* <li className="item-1"> <a href="#" className="disabled" rel="nofollow"> 
                                                 Реклама </a>
                                             <div className="item-1-sub js-submenu">
                                                 <div className="b-sub-menu">
@@ -145,7 +153,7 @@ const HeaderMenu = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li> */}
                                         <li className="item-1"> <a href="#" className="disabled"  rel="nofollow"> 
                                                 Поддержка </a>
                                             <div className="item-1-sub js-submenu">
@@ -177,7 +185,7 @@ const HeaderMenu = () => {
                                             </div>
                                         </li>
                                         <li className="item-1"> <a href="#" className="disabled"  rel="nofollow"> 
-                                                Полиграфия </a>
+                                                Полиграфия</a>
                                             <div className="item-1-sub js-submenu">
                                                 <div className="b-sub-menu">
                                                     <div className="sub-menu__wrapper">
@@ -185,12 +193,18 @@ const HeaderMenu = () => {
                                                             <div className="sub-menu__col">
 
 
-                                                                <div className="sub-menu__title"><a href="https://kopi34.ru/" target="_blank">&quot;KopiPrint&quot;</a>
+                                                                <div className="sub-menu__title"><a href="https://kopi34.ru/" target="_blank">&quot;KopiPrint&quot;🔗</a>
                                                                 </div>
                                                                 <div className="sub-menu__item"><a
-                                                                        href="https://kopi34.ru/produce/vizitki"  target="_blank">Визитки</a></div>
+                                                                        href="https://kopi34.ru/produce/vizitki"  target="_blank">Визитки 🔗</a></div>
                                                                 <div className="sub-menu__item"><a
-                                                                        href="https://kopi34.ru/produce/banner"  target="_blank">Баннеры</a></div>
+                                                                        href="https://kopi34.ru/produce/banner"  target="_blank">Баннеры 🔗</a></div>
+                                                                <div className="sub-menu__item"><a
+                                                                        href="https://kopi34.ru/produce/samokleyka"  target="_blank">Самоклейки 🔗</a></div>
+                                                                <div className="sub-menu__item"><a
+                                                                        href="https://kopi34.ru/produce/baget"  target="_blank">Багеты 🔗</a></div>
+                                                                <div className="sub-menu__item"><a href="https://kopi34.ru/produce/posterka"  target="_blank">Постерка 🔗</a></div>
+                                                                <div className="sub-menu__item"><a href="https://kopi34.ru/produce/holsty"  target="_blank">Холсты 🔗</a></div>
                                                             </div>
                                                         
                                                         </div>
@@ -213,11 +227,11 @@ const HeaderMenu = () => {
                                 <div className="b-sevice">
                                     <ul className="level-1" >
                                         
-                                        <li className="item-1"><span><a href="https://kopi34.ru/">
+                                        <li className="item-1"><span><a href="https://kopi34.ru/" target="_blank">
 
-                                                    Полиграфия</a></span> </li>
+                                                    Полиграфия🔗</a></span> </li>
                                                     
-                                        <li className="item-1"><span><a href="https://github.com/devshazam" target="_blank" rel='noreferrer'>
+                                        <li className="item-1"><span><a href="/portfolio" >
                                                     Портфолио</a></span> </li>
                                         <li className="item-1"><span><a href="/#otzyvy">
                                                     Отзывы</a></span> </li>

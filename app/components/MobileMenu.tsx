@@ -5,8 +5,9 @@ const MobileMenu = () => {
             <>
 
                     <div className="l-sidebar_inner js-sidebar-inner">
+
                         <div style={{textAlign: 'right'}}>
-                            <img alt="close" className="js-sidebar-hide" src='/files/icons8-close-50.png'  style={{width: '18px', height: '18px'}}/>
+                            <img alt="close" className="js-sidebar-hide" src='/files/icons8-close-50.png'  style={{width: '28px', height: '28px'}}/>
                         </div>
                         <div className="b-sidebar">
                             <div className="sidebar__item sidebar__contacts">
@@ -21,6 +22,9 @@ const MobileMenu = () => {
 
 
                                 <ul>
+                                    <li><a href="/portfolio/"><span>
+                                        <img src="/files/110/ficon3.png" alt="" /> 
+                                                    </span>Портфолио</a></li>
                                     <li><a href="/offer/razrabotka-saitov/"><span>
                                         <img src="/files/110/ficon3.png" alt="" /> 
                                                     </span>Разработка сайтов</a></li>
@@ -28,9 +32,7 @@ const MobileMenu = () => {
                                             </span>Лендинги</a></li>
                                     <li><a href="/offer/site-vizitka/"><span> 
                                             </span>Визитки</a></li>
-                                    <li><a href="/offer/site-katalog/"><span> 
-                                        </span>Сайты-Каталоги</a>
-                                    </li>
+
                                     <li><a href="/offer/site-magazin/"><span> 
                                         </span>Сайты-Магазины</a>
                                     </li>
@@ -42,13 +44,16 @@ const MobileMenu = () => {
                                                     </span>SEO продвижение</a></li>
                                     <li><a href="/offer/seo-prodvizenie-yandex/"><span>
                                             </span>SEO для Яндекс</a></li>
-                                    <li><a href="/offer/seo-prodvizenie-google/"><span> 
-                                            </span>SEO для Google</a></li>
+                                    {/* <li><a href="/offer/seo-prodvizenie-google/"><span> 
+                                            </span>SEO для Google</a></li> */}
                                     <li><a href="/offer/digital-reklama/"><span>
                                         <img src="/files/110/ficon3.png" alt="" /> 
                                                     </span>Digital Реклама</a></li>
                                     <li><a href="/offer/yandex-direct/"><span>
                                             </span>Яндекс Директ</a></li>
+                                    <li><a href="/contacts/"><span>
+                                        <img src="/files/110/ficon3.png" alt="" /> 
+                                                    </span>Контакты</a></li>
 
 
                                 </ul>

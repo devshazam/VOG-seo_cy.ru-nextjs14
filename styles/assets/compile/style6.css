@@ -1509,7 +1509,7 @@ body.b-editor {
   text-align: right;
 }
 .b-pilot .pilot__icons img {
-  width: 20px;
+  /* width: 20px; */
   height: 25px;
   display: inline-block;
   vertical-align: middle;
