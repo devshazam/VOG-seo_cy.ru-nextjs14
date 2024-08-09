@@ -17,7 +17,7 @@ export default function Contacts(){
                         <div className="grid__row">
                             <div className="col-1-1">
                                 <div className="b-headblock2 b-headblock2--mag">
-                                    <div className="headblock2__inner" itemScope itemType="http://schema.org/Organization">
+                                    <div className="headblock2__inner headblock2__inners" itemScope itemType="http://schema.org/Organization">
                                     <h3><span itemProp="name">SEO-First 2009 ☢️ разработка сайтов с гарантией!</span></h3>
                                         <div className="headblock2__content"  itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
                                             <p className='marb'><b>Мультиканальный телефон:</b><br></br>🎙️ +7 (995) 622-14-75</p>
